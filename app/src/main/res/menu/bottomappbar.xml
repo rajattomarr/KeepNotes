@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/iconcamera"
+            app:showAsAction="always"
+            android:title="add" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/iconofgallery2"
+            app:showAsAction="always"
+            android:title="add" />
+        <item
+            android:id="@+id/voice"
+            android:icon="@drawable/voiceicon"
+            app:showAsAction="always"
+            android:title="add" />
+        <item
+            android:id="@+id/editbottomappbar"
+            android:icon="@drawable/editicon"
+            app:showAsAction="always"
+            android:title="add" />
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notes"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/reminder"
+            android:title="Reminder" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/createnewlabel"
+            android:icon="@drawable/createnewlabel"
+            android:title="Create new label" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Archive"
+            android:icon="@drawable/ic_baseline_archive_24"
+            android:title="Archive" />
+        <item
+            android:id="@+id/Trash"
+            android:icon="@drawable/ic_baseline_delete_24"
+            android:title="Trash" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_baseline_help_outline_24"
+            android:title="Help" />
+
+    </group>
+
+
+</menu>

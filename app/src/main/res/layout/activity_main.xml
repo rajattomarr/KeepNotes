@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/contentmain"/>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+
+        app:menu="@menu/mainmenunavigation"
+        android:layout_gravity = "start"/>
+
+
+    <include
+        layout="@layout/bottomentries"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="623dp"
+            android:layout_marginTop="@dimen/_60sdp" />
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+    <!-- Note: A RecyclerView can also be used -->
